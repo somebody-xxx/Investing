@@ -1,0 +1,245 @@
+body {
+	background-color: #fff;
+	font-family: 'Fira Sans';
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+
+/*---------------------------begin header-----------------------------*/
+}
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-inverse{
+	border-radius: 0;
+	background-image: url(../img/bg_menu.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.navbar-nav{
+	margin: 0px;
+}
+
+.navbar-inverse .navbar-nav > li{
+	padding: 10px 10px 10px 10px;
+	border-bottom: 4px solid #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.375em;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.navbar-inverse .navbar-nav > li:hover{
+	background-color: #b2bcc8;
+}
+
+.navbar-inverse .navbar-collapse{
+	margin-bottom: 15px;
+}
+
+.reg{
+	float: right;
+	left: 0;
+}
+
+.navbar-inverse .reg > li,
+.navbar-inverse .reg > li > a {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.navbar-inverse .navbar-nav > li.Contact{
+	padding-right: 3px;
+}
+
+.navbar-inverse .Contact > a {
+	padding-right: 1px;
+}
+/*--------------------------------------------------------------*/
+#header{
+	background-image: url(../img/bg_heder.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-left: -1px
+}
+
+.container > h1{
+	text-align: center;
+	font-size: 107px;
+	font-weight: 500;
+	margin-top: 78px;
+	margin-bottom: 78px;
+}
+
+.container > h1  span{
+	background: -webkit-linear-gradient(#fff, #b1b0b0);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#logo{
+	background-image: url(../img/logo.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 124px;
+	height: 171px;
+	display: inline-block;
+	margin-bottom: -55px;
+	margin-left: 21px;
+	margin-right: 16px;
+}
+
+#header > hr{
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #fff; /* Цвет линии для остальных браузеров */
+    background-color: #fff; /* Цвет линии для браузера Firefox и Opera */
+    height: 5px; /* Толщина линии */
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+/*---------------------------end header-----------------------------*/
+/*---------------------------begin PriceCoin-----------------------------*/
+#PriceCoin .col-sm-7 > h1,
+#PriceCoin .col-sm-4 > h1{
+	font-size: 49px;
+    font-weight: 300;
+    color: black;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+
+#PriceCoin .price{
+	text-align: right;
+	padding-right: 4%;
+}
+
+#PriceCoin .col-sm-7{
+	margin-left: -2.5%;
+}
+
+#PriceCoin .ETH{
+	margin-left: 5%;
+}
+/*---------------------------end PriceCoin-----------------------------*/
+/*---------------------------begin Content-----------------------------*/
+#Content{
+	padding-top: 45px;
+	background: -webkit-linear-gradient(#ebe9e9, #fff);
+}
+
+#Content .EMC_BTC{
+	width: 290px;
+	height: 240px;
+	font-size: 29px;
+}
+
+#Content .EMC_BTC table{
+	width: 290px;
+	background-color: #fff;
+}
+
+#Content .EMC_BTC .headerTd,
+#Content .EMC_BTC .profit{
+	text-align: center;
+}
+
+#Content .EMC_BTC .midl{
+	width: 145px;
+	padding-left: 30px;
+}
+
+#Content .EMC_BTC .profit{
+	border-top: 1px solid #000;
+}
+/*---------------------------end Content-----------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------BEGIN_MEDIA------------------------*/
+/*--------------------------------------------------------*/
+@media (min-width: 1666px){
+	.container{
+		width: 1666px;
+	}
+
+	.navbar-inverse{
+		padding-top: 75px;
+	}
+}
+
+@media (max-width: 1665px){
+	.container{
+		width: 100%;
+	}
+	.navbar-inverse{
+		padding-top: 20px;
+	}
+	.navbar-inverse .navbar-nav > li > a{
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 1024px){
+	.container > h1{
+		font-size: 5.625em;
+  	}
+  	#logo{
+		width: 110px;
+		height: 150px;
+		margin-bottom: -51px;
+		margin-left: 17px;
+		margin-right: 11px;
+	}
+	#PriceCoin .col-sm-7 > h1,
+	#PriceCoin .col-sm-4 > h1{
+		font-size: 2.438em;
+	    margin-top: 14px;
+	    margin-bottom: 12px;
+	}
+}
+
+@media (max-width: 767px) {
+	.reg{
+		float: none;
+	}
+	.center{
+		text-align: center;
+	}
+	#logo{
+		display: block;
+    	margin: 0 auto;
+    }
+    .container > h1{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	#PriceCoin .col-sm-7 > h1,
+	#PriceCoin .col-sm-4 > h1{
+		text-align: center;
+	}
+	.container > h1{
+		font-size: 4.688em;
+  	}
+  	#header > .container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 425px){
+	#PriceCoin .col-sm-7 > h1,
+	#PriceCoin .col-sm-4 > h1{
+		font-size: 2.125em;
+	    margin-top: 14px;
+	    margin-bottom: 12px;
+	}
+}
