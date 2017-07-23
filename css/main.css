@@ -146,7 +146,8 @@ body {
 #Content .EMC_BTC{
 	width: 290px;
 	height: 240px;
-	font-size: 29px;
+	font-size: 26px;
+	margin: 0 auto;
 }
 
 #Content .EMC_BTC table{
@@ -157,6 +158,23 @@ body {
 #Content .EMC_BTC .headerTd,
 #Content .EMC_BTC .profit{
 	text-align: center;
+	font-size: 29px;
+}
+
+#Content .EMC_BTC .headerTd{
+	padding-top: 19px;
+}
+
+#Content .EMC_BTC .profit{
+	padding: 4px 0 4px 0;
+}
+
+#Content .EMC_BTC .td_one{
+	padding-top: 10px;
+}
+
+#Content .EMC_BTC .td_three{
+	padding-bottom: 9px;
 }
 
 #Content .EMC_BTC .midl{
@@ -182,6 +200,9 @@ body {
 }
 
 @media (max-width: 1665px){
+	#Content .container{
+		width: 100%;
+	}
 	.navbar-inverse{
 		padding-top: 20px;
 	}
