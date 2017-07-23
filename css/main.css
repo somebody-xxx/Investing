@@ -249,8 +249,15 @@ body {
 	.center{
 		text-align: center;
 	}
+	.navbar-nav{
+		border-bottom: 0px;
+	}
+	.navbar-inverse .navbar-nav > li{
+		margin-right: 0px;
+		border-bottom: 4px solid #fff;
+	}
 	.navbar-inverse .navbar-nav > li.Contact{
-	padding-right: 10px;
+		padding-right: 10px;
 	}
 	.navbar-inverse .Contact > a {
 		padding-right: 15px;
