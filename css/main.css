@@ -13,8 +13,8 @@ body {
 .navbar-inverse{
 	border-radius: 0;
 	background-image: url(../img/bg_menu.png);
-	-webkit-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: contain;
+	background-size: contain;
 	background-repeat: no-repeat;
 	border: none;
 }
@@ -71,8 +71,8 @@ body {
 /*--------------------------------------------------------------*/
 #header{
 	background-image: url(../img/bg_heder.png);
-	-webkit-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: contain;
+	background-size: contain;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	margin-left: -1px
@@ -94,8 +94,8 @@ body {
 
 #logo{
 	background-image: url(../img/logo.png);
-	-webkit-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: contain;
+	background-size: contain;
 	background-repeat: no-repeat;
 	width: 124px;
 	height: 171px;
@@ -187,6 +187,43 @@ body {
 #Content .EMC_BTC .profit{
 	border-top: 1px solid #000;
 }
+/*------------------------------info_block------------------------------*/
+#Content .info_block_1,
+#Content .info_block_2{
+	max-width: 620px;
+	font-size: 25px;
+	margin: 0 auto;
+	font-weight: 500;
+}
+
+#Content .img_1,
+#Content .img_2{
+	max-width: 619px;
+	height: 465px;
+}
+
+#Content .img_1{
+	background-image: url(../img/img_1.jpg);
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#Content .img_2{
+	background-image: url(../img/img_2.jpg);
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#Content .img_1 .prozoro,
+#Content .img_2 .prozoro{
+	width: 100%;
+	height: 98px;
+	color: #fff;
+
+}
+
 /*---------------------------end Content-----------------------------*/
 /*----------------------------------------------------------*/
 /*----------------------BEGIN_MEDIA------------------------*/
