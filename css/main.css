@@ -258,8 +258,61 @@ body {
 #Content .text_block > button:focus{
 	outline: none;
 }
-
 /*---------------------------end Content-----------------------------*/
+/*---------------------------begin Footer-----------------------------*/
+#footer{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	background-image: url(../img/bg_menu.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#footer .soc_icon{
+	font-size: 30px;
+	float: right;
+	background-color: #fff;
+	margin-right: 5px;
+}
+
+#footer .fa-facebook{
+	color:#090f1b;
+	padding: 15px 22px 15px 22px;
+}
+
+#footer .fa-facebook:hover{
+	color:#3B5998;
+}
+
+#footer .fa-instagram{
+	color:#090f1b;
+	padding: 15px 17px 15px 17px;
+}
+
+#footer .fa-instagram:hover{
+	color:#C42C91;
+}
+
+#footer .fa-vk{
+	color:#090f1b;
+	padding: 15px 15px 15px 15px;
+}
+
+#footer .fa-vk:hover{
+	color:#507299;
+}
+
+#footer .fa-youtube{
+	color:#090f1b;
+	padding: 15px 18px 15px 18px;
+}
+
+#footer .fa-youtube:hover{
+	color:#E62117;
+}
+/*---------------------------end Footer-----------------------------*/
 /*----------------------------------------------------------*/
 /*----------------------BEGIN_MEDIA------------------------*/
 /*--------------------------------------------------------*/
@@ -372,6 +425,15 @@ body {
   	#header > .container{
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+	#Content .text_block {
+    	padding-bottom: 75px;
+	}
+	#Content .text_block > button{
+		margin-top: 30px;
+	}
+	#footer{
+		height: 120px;
 	}
 }
 
