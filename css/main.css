@@ -311,6 +311,75 @@ body {
 #footer .fa-youtube:hover{
 	color:#E62117;
 }
+/*---------------------------begin Login-----------------------------*/
+/*---------------------------end Login-----------------------------*/
+#login{
+	max-width: 410px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 57px;
+    padding-bottom: 37px;
+    text-align: center;
+    margin-bottom: 746px;
+}
+
+#login .font{
+	font-size: 31.75px;
+	text-align: center;
+	width: 295px;
+	padding: 12px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+
+#login h1{
+	margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: black;
+}
+
+#login p{
+	font-size: 21.17px;
+	font-weight: 300;
+	text-align: center;
+	color: black;
+}
+
+#login a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+#login p:hover{
+	color: #8e4230;
+	border-bottom: 1px solid #8e4230;
+}
+
+#login .form-horizontal > input{
+	height: 55px;
+	border: 0px;
+	background-color: #ebebeb;
+	color: #000;
+}
+
+#login .form-horizontal > input:active,
+#login .form-horizontal > input:focus{
+	border: 1px solid #b2bcc8;
+	background-color: #fff;
+}
+
+#login .form-horizontal > button{
+	margin-top: 30px;
+	background-color: #b2bcc8;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#login .form-horizontal > button:hover{
+	background-color: #8e4230;
+}
 /*---------------------------end Footer-----------------------------*/
 /*----------------------------------------------------------*/
 /*----------------------BEGIN_MEDIA------------------------*/
@@ -438,6 +507,9 @@ body {
 	}
 	#Content .text_block > button{
 		margin-top: 30px;
+	}
+	#login{
+		margin-bottom: 50px;
 	}
 	#footer{
 		height: 120px;
