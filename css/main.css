@@ -321,6 +321,7 @@ body {
     padding-bottom: 37px;
     text-align: center;
     margin-bottom: 746px;
+    box-shadow: 0px 10px 10px #dcdfdf;
 }
 
 #login .font{
@@ -379,6 +380,11 @@ body {
 
 #login .form-horizontal > button:hover{
 	background-color: #8e4230;
+}
+
+#errorBlock{
+	margin-top: 10px;
+    color: red;
 }
 /*---------------------------end Footer-----------------------------*/
 /*----------------------------------------------------------*/
