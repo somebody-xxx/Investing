@@ -5,6 +5,7 @@
 
             if (pass != pass_rep) {
                 $("#repPass").css('border', 'red 1px solid');
+                $("#pass").css('border', 'red 1px solid');
                 $('#errorBlock').html('Пароли не совпадают');
             }
         });
