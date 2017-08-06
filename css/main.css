@@ -447,6 +447,10 @@ body {
 	.container {
 	    width: 100%;
 	}
+	#Content .phone_block{
+		max-width: 570px;
+		margin: 0 auto;
+	}
 }
 
 @media (min-width: 992px){
@@ -505,6 +509,9 @@ body {
 		margin-top: 30px;
 		font-size: 20px;
 		padding: 6px 60px;
+	}
+		#Content .prozoro{
+		font-size: 18px;
 	}
 	#login{
 		margin-bottom: 50px;
